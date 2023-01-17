@@ -5,6 +5,10 @@ import { HomeComponent } from './home/home.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { ProductosComponent } from './productos/productos.component';
 import { AppRoutingModule } from '../app-routing.module';
+import { PeruComponent } from './peru/peru.component';
+import { UsuruguayComponent } from './usuruguay/usuruguay.component';
+import { ChileComponent } from './chile/chile.component';
+import { TituloComponent } from './titulo/titulo.component';
 
 
 
@@ -13,7 +17,11 @@ import { AppRoutingModule } from '../app-routing.module';
     MenuComponent,
     HomeComponent,
     ContactoComponent,
-    ProductosComponent
+    ProductosComponent,
+    PeruComponent,
+    UsuruguayComponent,
+    ChileComponent,
+    TituloComponent
   ],
   imports: [
     CommonModule,
@@ -23,7 +31,11 @@ import { AppRoutingModule } from '../app-routing.module';
     MenuComponent,
     HomeComponent,
     ContactoComponent,
-    ProductosComponent
+    ProductosComponent,
+    PeruComponent,
+    UsuruguayComponent,
+    ChileComponent,
+    TituloComponent
   ]
 })
 export class PrincipalModule { }
